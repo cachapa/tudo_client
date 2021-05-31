@@ -12,7 +12,7 @@ dependencies:
 
   provider: ^5.0.0
 
-  hive_crdt: ^1.0.3
+  hive_crdt: ^2.0.2
   http: ^0.13.1
   web_socket_channel: ^2.0.0
 

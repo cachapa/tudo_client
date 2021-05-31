@@ -35,7 +35,7 @@ void main() async {
 
   // Adapters
   Hive.registerAdapter(RecordAdapter(0));
-  Hive.registerAdapter(HlcAdapter(2, nodeId));
+  Hive.registerAdapter(HlcAdapter(2));
   Hive.registerAdapter(ToDoAdapter(3));
   Hive.registerAdapter(ColorAdapter(4));
 
